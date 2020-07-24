@@ -1,5 +1,5 @@
 from flask_restful import Resource, reqparse
-from second_api.models.user_model import UserModel
+from models.user_model import UserModel
 
 
 class UserRegister(Resource):

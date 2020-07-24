@@ -1,4 +1,4 @@
-from second_api.ext.db import db
+from ext.db import db
 
 
 class StoreModel(db.Model):

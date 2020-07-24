@@ -1,7 +1,7 @@
 import sqlite3
 from flask_restful import Resource, reqparse
 from flask_jwt import jwt_required
-from second_api.models.item_model import ItemModel
+from models.item_model import ItemModel
 
 
 class Item(Resource):
