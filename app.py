@@ -1,7 +1,7 @@
 from flask import Flask
 from flask_restful import Api
-from second_api.security import authenticate, identity
 from second_api.resources.item_resource import Item, ItemList
+from second_api.security import authenticate, identity
 from second_api.ext import auth
 from second_api.ext.db import db
 from second_api.resources.user_resource import UserRegister
