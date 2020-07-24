@@ -1,11 +1,11 @@
 from flask import Flask
 from flask_restful import Api
-from resources.item_resource import Item, ItemList
-from second_api.security import authenticate, identity
-from second_api.ext import auth
-from second_api.ext.db import db
-from second_api.resources.user_resource import UserRegister
-from second_api.resources.store_resource import Store, StoreList
+from .resources.item_resource import Item, ItemList
+from .security import authenticate, identity
+from .ext import auth
+from .ext.db import db
+from .resources.user_resource import UserRegister
+from .resources.store_resource import Store, StoreList
 
 # from flask_jwt import JWT
 
